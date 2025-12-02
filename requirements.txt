@@ -1,0 +1,24 @@
+numpy
+scikit-image
+opencv-python
+scikit-learn
+pandas
+joblib
+matplotlib
+seaborn
+Pillow
+
+# Deep Features (CLIP)
+git+https://github.com/openai/CLIP.git
+
+# PyTorch (necessário para CLIP)
+torch
+torchvision
+torchaudio
+
+# TensorFlow (caso queira manter compatibilidade com MobileNetV2 antigo)
+tensorflow
+
+# Para evitar warnings em Windows ao usar matplotlib
+kiwisolver
+packaging
